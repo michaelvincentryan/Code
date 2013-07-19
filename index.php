@@ -2,10 +2,17 @@
 <html>
 	<head>
 		<title>My Dashboard</title>
-		<script type="text/javascript" src="dashboard.js"></script>
+		<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css"> 
 	</head>
 	<body>
 		<h1>My Dashboard</h1>
+		<ul class="nav nav-tabs">
+		  <li>
+		    <a href="#">Home</a>
+		  </li>
+		  <li><a href="#">Profile</a></li>
+		  <li><a href="#">Test</a></li>
+		</ul>
 		<table border='1' color='black'>		
 			<tr>
 				<th><h2>hacker news</h2></th>
