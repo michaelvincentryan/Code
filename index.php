@@ -64,7 +64,7 @@
 									if ($links->item($cnt)->getAttribute('valign') != 'top'){
 										$test = $xpath->query('*',$links->item($cnt))->item(0);
 										$link = $test->getAttribute('href');							
-										echo '<li>' . '<a href=' . $link . ' target=_blank	>' . $nodeVal  . '</a>' . '</li>';
+										echo '<li>' . '<a href=' . $link . '>' . $nodeVal  . '</a>' . '</li>';
 									}						
 								}
 								else { continue; }
@@ -106,7 +106,7 @@
 										if ($links->item($cnt)->getAttribute('class') == 'title '){
 											$nodeVal = $links->item($cnt)->nodeValue;
 											$href = $links->item($cnt)->getAttribute('href');
-											echo '<li> <a href=' . $href . ' target=_blank	>' . $nodeVal . '</a></li>';
+											echo '<li> <a href=' . $href . '>' . $nodeVal . '</a></li>';
 										}
 									}
 								}
